@@ -7,7 +7,7 @@ public class SayisalLoto {
         Random rnd = new Random();
         return rnd.nextInt(maxSayi+1);
     }
-
+//as
     public static void main(String[] args) {
         SayisalLoto loto = new SayisalLoto();
         for (int i=1;i<=10;i++) {
