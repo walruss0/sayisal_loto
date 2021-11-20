@@ -12,9 +12,13 @@ public class CokluSartOrnek {
         if (sayi3==sayi1 || sayi3==sayi2){
             System.out.println("Tekrarlanan sayi var!");
         }
-        else{
+       /* else{
             System.out.println("Tekrarlanan sayi yok!");
-        }
+        }*/
 
+        while (sayi1 != sayi3 && sayi3 != sayi2){
+            System.out.println("Sayi3 diğerlerine eşit değil!");
+            sayi3 = sayi1;
+        }
     }
 }
