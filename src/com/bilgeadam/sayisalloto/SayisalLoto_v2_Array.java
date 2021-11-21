@@ -51,7 +51,7 @@ public class SayisalLoto_v2_Array {
         //Döngüyle array'e rastgele sayilar atalım.
         for(int i=0;i<= sayilar.length;i++)
         {
-            int rastgelesayi=  loto.sayiGetir();
+            int rastgelesayi =  loto.sayiGetir();
             //rastgele sayi arrayde varsa döngüyle tekrar sayi alıcanak.
             //arrayde olmayan sayi bulana kadar döngüden çıkamaz.
             boolean sonuc = loto.arraydeVarmi(sayilar, rastgelesayi);
@@ -70,7 +70,7 @@ public class SayisalLoto_v2_Array {
 
     for (int i = 0;i < sayilar.length;i++)
     {
-        if (i != sayilar.length-1)
+        if (i != (sayilar.length-1))
         {
             System.out.print(sayilar[i] + "-");
         }
